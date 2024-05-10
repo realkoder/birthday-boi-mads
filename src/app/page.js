@@ -22,7 +22,7 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="min-w-max h-screen bg-green-100 w-screen overflow-hidden flex">
+    <main className="min-w-max h-screen bg-green-100 w-screen flex">
       <div className="flex-1 flex flex-col text-center items-center">
         <p className="text-xl m-12">{evenFlag}</p>
         <p className="text-xl m-12">{oddFlag}</p>

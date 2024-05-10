@@ -10,7 +10,7 @@ import {
 function DialogBox() {
   return (
     <Dialog>
-      <DialogTrigger className="bg-green-300 font-bold py-2 px-4 rounded">KLIK her FOR AT FÅ DIN GAVE</DialogTrigger>
+      <DialogTrigger className="bg-green-300 font-bold py-2 px-4 rounded">KLIK HER FOR AT FÅ DIN GAVE</DialogTrigger>
       <DialogContent>
         <DialogHeader>
           <DialogTitle className="text-2xl">FISKEBUFFET!!</DialogTitle>
