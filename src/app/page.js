@@ -30,7 +30,7 @@ export default function Home() {
         <p className="text-9xl m-12">{oddFlag}</p>
       </div>
       <div className="flex-1 flex flex-col text-center items-center">
-        <h1 className="text-3xl m-16">ÅHHH FØDSELSDAG!!</h1>
+        <h1 className="text-3xl m-16">ÅHHH FØDSELSDAGS MADS!!</h1>
         <h1 className="text-xl m-8">
           TILLYKKE MED DIN FØDSELSDAG BIRTHDAY BOI MADS
         </h1>
@@ -39,6 +39,15 @@ export default function Home() {
         <h2 className="text-xl m-8">{textContent}</h2>
         <h2 className="text-xl m-8">{textContent}</h2>
         <h2 className="text-xl m-8">{textContent}</h2>
+        <iframe
+        className="rounded-lg"
+          frameborder="0"
+          height="315"
+          src="https://www.youtube.com/embed/Ifj_-a3l8P0?autoplay=1"
+          width="420"
+          allow="autoplay; fullscreen"
+          allowfullscreen
+        ></iframe>
       </div>
       <div className="flex-1 flex flex-col text-center items-center">
         <p className="text-9xl m-12">{evenFlag}</p>
