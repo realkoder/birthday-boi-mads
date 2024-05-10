@@ -21,7 +21,7 @@ export default function Home() {
     <main className="min-w-max h-screen bg-green-100 w-screen overflow-hidden flex">
       <div className="flex-1 flex flex-col text-center items-center">
         <Image
-          src="/flag.jpeg"
+          src="./public/flag.jpeg"
           width={250}
           height={250}
           alt="Flag image"
