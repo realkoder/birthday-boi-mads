@@ -6,6 +6,8 @@ import { useEffect, useState } from "react";
 
 export default function Home() {
   const [textContent, setTextContent] = useState();
+  const [evenFlag, setEvenFlag] = useState();
+  const [oddFlag, setOddFlag] = useState();
 
   useEffect(() => {
     let counter = 0;
@@ -13,6 +15,8 @@ export default function Home() {
       setTextContent(
         counter % 2 === 0 ? "" : "🇩🇰TILLYKKE MED DIN FØDSELSDAG!🇩🇰"
       );
+      setEvenFlag(counter % 2 === 0 ? "🇩🇰" : "🎁");
+      setOddFlag(counter % 2 === 0 ? "🎁" : "🇩🇰");
       ++counter;
     }, 1000);
   }, []);
@@ -20,30 +24,13 @@ export default function Home() {
   return (
     <main className="min-w-max h-screen bg-green-100 w-screen overflow-hidden flex">
       <div className="flex-1 flex flex-col text-center items-center">
-        <Image
-          src="./public/flag.jpeg"
-          width={250}
-          height={250}
-          alt="Flag image"
-          className="rounded-full m-16"
-        />
-        <Image
-          src="/flag.jpeg"
-          width={250}
-          height={250}
-          alt="Flag image"
-          className="rounded-full m-16"
-        />
-        <Image
-          src="/flag.jpeg"
-          width={250}
-          height={250}
-          alt="Flag image"
-          className="rounded-full m-16"
-        />
+        <p className="text-9xl m-12">{evenFlag}</p>
+        <p className="text-9xl m-12">{oddFlag}</p>
+        <p className="text-9xl m-12">{evenFlag}</p>
+        <p className="text-9xl m-12">{oddFlag}</p>
       </div>
-      <div className="flex-1 flex flex-col text-center items-center">      
-        <h1 className="text-3xl m-8">ÅHHH FØDSELSDAG!!</h1>
+      <div className="flex-1 flex flex-col text-center items-center">
+        <h1 className="text-3xl m-16">ÅHHH FØDSELSDAG!!</h1>
         <h1 className="text-xl m-8">
           TILLYKKE MED DIN FØDSELSDAG BIRTHDAY BOI MADS
         </h1>
@@ -54,28 +41,11 @@ export default function Home() {
         <h2 className="text-xl m-8">{textContent}</h2>
       </div>
       <div className="flex-1 flex flex-col text-center items-center">
-      <Image
-          src="/flag.jpeg"
-          width={250}
-          height={250}
-          alt="Flag image"
-          className="rounded-full m-16"
-        />
-        <Image
-          src="/flag.jpeg"
-          width={250}
-          height={250}
-          alt="Flag image"
-          className="rounded-full m-16"
-        />
-        <Image
-          src="/flag.jpeg"
-          width={250}
-          height={250}
-          alt="Flag image"
-          className="rounded-full m-16"
-        />
-      </div>      
+        <p className="text-9xl m-12">{evenFlag}</p>
+        <p className="text-9xl m-12">{oddFlag}</p>
+        <p className="text-9xl m-12">{evenFlag}</p>
+        <p className="text-9xl m-12">{oddFlag}</p>
+      </div>
     </main>
   );
 }
