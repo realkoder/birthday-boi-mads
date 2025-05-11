@@ -15,7 +15,7 @@ function DialogBox({ setShowCard }) {
         className="bg-green-300 font-bold py-2 px-4 rounded"
         onClick={() => {
           setShowCard(true);
-          toast("TILGODEBEVIS GENERATED", {
+          toast("YOYO TILGODEBEVIS GENERATED", {
             description:
               "En midddag på Bornholm eller evt et lift til Opalsøen",
             duration: 5000,
@@ -26,7 +26,7 @@ function DialogBox({ setShowCard }) {
       </DialogTrigger>
       <DialogContent>
         <DialogHeader>
-          <DialogTitle className="text-2xl">FISKEBUFFET!!</DialogTitle>
+          <DialogTitle className="text-2xl">DU KENDER DET - STOR FED FISKEBUFFET!!</DialogTitle>
           <DialogDescription className="text-xl">
             DET SKAL DU DA HA!
           </DialogDescription>

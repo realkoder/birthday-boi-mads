@@ -16,11 +16,11 @@ export function VoucherCard({ setShowCard }) {
     <Card className="w-[300px]">
       <CardHeader>
         <CardTitle>🐬🐬🐬🐬🐬🐬🐬🐬🐬🐬</CardTitle>
-        <CardTitle>TILGODEBEVIS</CardTitle>
-        <CardDescription>FISKEBUFFET</CardDescription>
+        <CardTitle>DU KENDER DET TILGODEBEVIS</CardTitle>
+        <CardDescription>DU KENDER DET FISKEBUFFET</CardDescription>
       </CardHeader>
       <CardContent>
-        Dit tilgodebevis til fiskebuffet på øen!
+        Dit tilgodebevis til fiskebuffet på øen MANH!!
       </CardContent>
       <CardTitle className="mb-4">🐋🐋🐋🐋🐋🐋🐋🐋🐋🐋🐋🐋</CardTitle>
       <CardFooter className="flex justify-between">
